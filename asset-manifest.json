@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Pawservies/static/css/main.5c7ebfb8.css",
+    "main.js": "/Pawservies/static/js/main.8c526b9d.js",
+    "static/media/luxury.png": "/Pawservies/static/media/luxury.67202f4bce85e8111a48.png",
+    "static/media/normalhomeservice1.png": "/Pawservies/static/media/normalhomeservice1.742a6b69a9e69f2bebba.png",
+    "static/media/logo.png": "/Pawservies/static/media/logo.92b858f3f91be698fabb.png",
+    "static/media/googleimg.avif": "/Pawservies/static/media/googleimg.cb659b4e77d48c8b44b3.avif",
+    "index.html": "/Pawservies/index.html",
+    "main.5c7ebfb8.css.map": "/Pawservies/static/css/main.5c7ebfb8.css.map",
+    "main.8c526b9d.js.map": "/Pawservies/static/js/main.8c526b9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c7ebfb8.css",
+    "static/js/main.8c526b9d.js"
+  ]
+}
