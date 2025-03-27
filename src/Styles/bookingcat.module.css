@@ -1,0 +1,62 @@
+.section {
+    padding: 4rem 0;
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .container {
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 36rem;
+    margin: 0 auto 2rem;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .primaryButton {
+    background-color: white;
+    color: var(--primary);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .primaryButton:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .secondaryButton {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .secondaryButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (min-width: 640px) {
+    .actions {
+      flex-direction: row;
+    }
+  }
+  
+  

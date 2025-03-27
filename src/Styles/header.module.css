@@ -1,0 +1,134 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+.container {
+  display: flex;
+  height: 6rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.logoImage {
+  position: relative;
+  width: 10rem;
+}
+
+.logoImg {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.desktopNav {
+  display: none;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navLink {
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: var(--primary);
+}
+
+.desktopActions {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.phoneIcon {
+  height: 1rem;
+  width: 1rem;
+  color: var(--primary);
+}
+
+.bookButton {
+  font-weight: 500;
+}
+
+.menuButton {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.mobileMenu {
+  display: block;
+  border-top: 1px solid var(--border);
+}
+
+.mobileMenuContainer {
+  padding: 1rem 0;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mobileNavLink {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+.mobileActions {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.mobileBookButton {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .desktopNav {
+    display: flex;
+  }
+
+  .desktopActions {
+    display: flex;
+  }
+
+  .menuButton {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+}

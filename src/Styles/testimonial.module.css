@@ -1,0 +1,136 @@
+.section {
+    padding: 4rem 0;
+    background-color: white;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.125rem;
+    color: var(--muted);
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .testimonialCard {
+    border: 1px solid rgba(255, 107, 157, 0.1);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+  }
+  
+  .stars {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .star {
+    height: 1.25rem;
+    width: 1.25rem;
+    color: #ffb800;
+    fill: #ffb800;
+  }
+  
+  .starEmpty {
+    height: 1.25rem;
+    width: 1.25rem;
+    color: #e5e5e5;
+  }
+  
+  .testimonialText {
+    margin-bottom: 1rem;
+    color: var(--muted);
+  }
+  
+  .testimonialAuthor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authorImage {
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-right: 0.75rem;
+  }
+  
+  .authorInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .authorName {
+    font-weight: 500;
+  }
+  
+  .authorLocation {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  
+  .googleReviews {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reviewsContainer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 107, 157, 0.05);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius);
+  }
+  
+  .googleLogo {
+    margin-right: 1rem;
+  }
+  
+  .reviewsInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reviewsStars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reviewsRating {
+    margin-left: 0.5rem;
+    font-weight: 700;
+  }
+  
+  .reviewsCount {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  
