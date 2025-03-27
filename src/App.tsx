@@ -6,11 +6,10 @@ import ContactPage from "./Components/Contactpage";
 import ServicesPage from "./Components/Servicepage";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import BookingForm from "./Components/Bookingform";
 
 const App = () => {
   return (
-    <Router basename="/Pawservies"> 
+    <Router> 
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
