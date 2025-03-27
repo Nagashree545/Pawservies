@@ -92,8 +92,31 @@
 .mobileMenuContainer {
   padding: 1rem 0;
 }
-
 .mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+  z-index: 100;
+}
+
+.mobileNavLink {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+.mobileBookButton {
+  width: 100%;
+}
+
+/* .mobileNav {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -104,16 +127,14 @@
   font-size: 0.875rem;
   font-weight: 500;
   padding: 0.5rem 0;
-}
+} */
 
 .mobileActions {
   padding-top: 1rem;
   border-top: 1px solid var(--border);
 }
 
-.mobileBookButton {
-  width: 100%;
-}
+/* s */
 
 @media (min-width: 768px) {
   .desktopNav {

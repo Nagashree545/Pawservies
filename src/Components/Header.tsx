@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <Row className={`container ${styles.container}`}>
+      <Row className={`container ${styles.container}`} justify={"space-between"}>
         {/* Logo */}
        <Col xl={7}>
        <Link to="/" className={styles.logo}>
