@@ -10,16 +10,15 @@ import BookingForm from "./Components/Bookingform";
 
 const App = () => {
   return (
-    <Router>
-      <Header/>
+    <Router basename="/Pawservies"> 
+      <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/services" element={<ServicesPage />} />
-
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   );
 };
